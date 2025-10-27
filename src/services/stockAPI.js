@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = "cvno831r01qq3c7gedcgcvno831r01qq3c7gedd0";  // replace this
+const API_KEY = process.env.REACT_APP_FINNHUB_API_KEY;  // replace this
 const BASE_URL = "https://finnhub.io/api/v1/quote";
 
 export const fetchPrice = async (symbol) => {
