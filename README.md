@@ -23,4 +23,4 @@ Context API for state management
 
 Recharts for data visualization
 
-Finnhub API (or your chosen API) for stock prices
+Finnhub API  for stock prices
